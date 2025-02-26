@@ -10,7 +10,7 @@ function Navbar() {
         <div className="container-fluid  d-flex align-items-center  ">
           <Link to="/" className="logo d-flex align-items-center me-auto">
             <img
-              src="/assets/jobfactoryicon.jpg"
+              src="./assets/jobfactoryicon.jpg"
               alt=""
               style={{ width: "100px", height: "80px" }}
             />
