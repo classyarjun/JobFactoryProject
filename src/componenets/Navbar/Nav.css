@@ -1,0 +1,47 @@
+
+
+  .header .logo {
+    line-height: 1;
+  }
+  
+
+  
+  .header .logo h1 {
+    font-size: 28px;
+    margin: 0;
+    font-weight: 700;
+    color: var(--heading-color);
+  }
+  
+
+/* 
+
+  li a:hover + .hide {
+  display: block;
+  color: red;
+}
+
+
+.hide {
+    display: none;
+  }
+       */
+
+
+       .navmenu {
+        display: flex;
+        justify-content: center; 
+        width: 100%;
+      }
+      
+      .navmenu ul {
+        display: flex;
+        gap: 20px;
+        list-style: none;
+        padding: 0;
+      }
+      
+      .navmenu .nav-item {
+        text-align: center;
+      }
+      
