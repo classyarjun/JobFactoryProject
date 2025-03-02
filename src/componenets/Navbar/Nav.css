@@ -14,24 +14,22 @@
 } */
 
  
- nav button {
+.navbar-toggler ,.ApplyJob{
   border-radius: .25rem;
   text-transform: uppercase;
-  font-style: normal;
-  font-weight: 400;
+font-weight: bold;
   padding-left: 25px;
   padding-right: 25px;
-  color: #fff;
+  color: #ffffff;
   -webkit-clip-path: polygon(0 0,0 0,100% 0,100% 0,100% calc(100% - 15px),calc(100% - 15px) 100%,15px 100%,0 100%);
   clip-path: polygon(0 0,0 0,100% 0,100% 0,100% calc(100% - 15px),calc(100% - 15px) 100%,15px 100%,0 100%);
   height: 40px;
-  font-size: 0.7rem;
   line-height: 14px;
   letter-spacing: 1.2px;
   transition: .2s .1s;
   background-image: linear-gradient(90deg,#1c1c1c,#6220fb);
   border: 0 solid;
-  overflow: hidden;
+
 }
 
 nav button:hover {
@@ -43,13 +41,8 @@ nav button:hover {
 
 
 
-.navbar {
-  padding: 0.5rem 0;
-}
 
-.navbar-brand {
-  padding: 0;
-}
+
 
 .nav-link {
   position: relative;
@@ -64,7 +57,7 @@ nav button:hover {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #3a86ff;
+  background-image: linear-gradient(90deg,#1c1c1c,#6220fb);
   transition: width 0.3s ease;
 }
 
@@ -75,6 +68,7 @@ nav button:hover {
 .nav-link.active::after {
   width: 100%;
 }
+
 
 /* .btn-primary {
   background-color: #3a86ff;

@@ -1,3 +1,4 @@
+import Missionvision from "../Misionvision/Missionvision";
 import "./About.css";
 
 function About() {
@@ -75,7 +76,9 @@ function About() {
           </div>
         </div>
       </div>
+    <Missionvision/>
     </section>
+
     </>
   );
 }

@@ -18,12 +18,12 @@ const Navbar = () => {
         </Link>
         
         <button
-          className="navbar-toggler"
+          className="navbar-toggler "
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarNav"
         >
-          <span className="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon "></span>
         </button>
         
         <div className="collapse navbar-collapse" id="navbarNav">
@@ -66,7 +66,7 @@ const Navbar = () => {
               className=" fw-bold py-2 px-4"
               style={{ whiteSpace: 'nowrap' }}
             >
-                  <button>Apply Job</button>
+                  <button className="ApplyJob">Apply Job</button>
             </a>
           </div>
 

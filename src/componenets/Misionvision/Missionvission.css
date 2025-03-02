@@ -1,0 +1,33 @@
+
+
+  .section-heading {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  .sub-text {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto;
+    color: rgb(36, 36, 36);
+  }
+
+  .text-content {
+    max-width: 600px;
+    text-align: justify;
+  }
+  .vision .image-container {
+    box-shadow: #ff9742 -30px 20px 0px;
+    padding: 1px;
+  }
+  .mission .image-container {
+    box-shadow: #5cabff 30px 20px 0px;
+    padding: 1px;
+  }
+
+  .image-container {
+    width: 400px;
+  }
+  .image-container img {
+    width: 100%;
+  }

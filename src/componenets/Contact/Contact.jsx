@@ -1,4 +1,6 @@
-import { Link } from "react-router";
+import React from "react";
+import "./Contact.css";
+
 
 function Contact() {
   return (
@@ -152,12 +154,10 @@ function Contact() {
                     style={{ display: "none" }}
                   />
                   <div className="col-md-12 text-start">
-                    {/* <button type="submit" className="btn btn-primary">
-                      Send Message
-                    </button> */}
+                   
                     <button
                       type="submit"
-                      className="btn btn-primary"
+                      className="btn_submit"
                       style={{ borderRadius: ".25rem",textTransform: "uppercase",fontStyle: "normal",
                         fontWeight: 400,paddingRight: "25px", color: "#fff",
                         clipPath:"polygon(0 0,0 0,100% 0,100% 0,100% calc(100% - 15px),calc(100% - 15px) 100%,15px 100%,0 100%)",
