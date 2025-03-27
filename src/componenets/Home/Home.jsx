@@ -3,6 +3,7 @@ import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
 import WhyChoose from "../whyChoose/WhyChoose";
 import "./Home.css";
+import Compliance from "../Complience/Complience";
 const items = [
   {
     id: 1,
@@ -293,8 +294,9 @@ const Home = () => {
       </div>
 
       <WhyChoose />
+      <Compliance/>
 
-      <div className="teamsection p-5">
+      {/* <div className="teamsection p-5">
         <div
           className="container section-title aos-init aos-animate"
           data-aos="fade-up"
@@ -394,7 +396,7 @@ const Home = () => {
             </div>
           </div>
         </section>
-      </div>
+      </div> */}
 
       <div className="partnerssection p-5">
         <div
